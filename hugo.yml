@@ -1,0 +1,33 @@
+baseURL: ''
+languageCode: en-us
+title: Demo for Hugo
+theme: PaperMod
+params:
+  homeInfoParams:
+    Title: 'Hello Stranger'
+    Content: "Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff."
+  socialIcons:
+    - name: facebook
+      url: 'https://facebook.com'
+    - name: twitter
+      url: 'https://twitter.com'
+    - name: github
+      url: 'https://github.com'
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+menus:
+  main:
+    - identifier: categories
+      name: Categories
+      pageRef: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      pageRef: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      pageRef: /archives/
+      weight: 30
