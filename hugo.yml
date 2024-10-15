@@ -3,6 +3,7 @@ languageCode: en-us
 title: Demo for Hugo
 theme: PaperMod
 params:
+  social: true
   homeInfoParams:
     Title: 'Hello Stranger'
     Content: "Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff."
